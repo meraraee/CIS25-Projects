@@ -11,3 +11,8 @@
 #include <stdio.h>
 
 #endif /* activity23_hpp */
+
+bool validate(const string &customerNumber);
+
+int main();
+
