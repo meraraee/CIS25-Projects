@@ -11,3 +11,6 @@
 #include <stdio.h>
 
 #endif /* activity24_hpp */
+
+struct Customers{
+};
