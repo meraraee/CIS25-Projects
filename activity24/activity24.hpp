@@ -12,5 +12,4 @@
 
 #endif /* activity24_hpp */
 
-struct Customers{
-};
+struct Customers;
