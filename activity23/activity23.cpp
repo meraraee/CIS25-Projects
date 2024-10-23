@@ -30,7 +30,7 @@ bool validate(const string &customerNumber){
     return true;
 }
 
-    int main(){
+    int main23(){
         
         //variable to store users input
         string customerNumber;
