@@ -11,3 +11,5 @@
 #include <stdio.h>
 
 #endif /* activity13_hpp */
+
+int main();

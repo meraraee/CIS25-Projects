@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+namespace LinearSearch{  //namespace convention
 int linearSearch(){
     
     int arr[] = {2,4,5,7,20,11,17}; //int array
@@ -14,16 +14,17 @@ int linearSearch(){
         
         if(arr[i] == target){
             return i; //return its index
+            }
         }
-    }
     return -1;
-    
+    }
+
 }
 
 int main17(){
 
-    linearSearch(); //calling function in main
-    
+ LinearSearch::linearSearch(); //calling function in main
+
     return 0;
 }
 

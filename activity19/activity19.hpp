@@ -12,4 +12,8 @@
 
 #endif /* activity19_hpp */
 
+namespace SwappingFunctions{
 void swappy(int *a, int *b);
+}
+
+int main();

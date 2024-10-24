@@ -12,10 +12,14 @@
 
 #endif /* activity16_hpp */
 
-int highestScore(int grade[], int size);
+namespace AnalyzingGrades{
+    int highestScore(int grade[], int size);
 
-int lowestScore(int grades[], int size);
+    int lowestScore(int grades[], int size);
 
-double averageScore(int grades[], int size);
+    double averageScore(int grades[], int size);
 
-void aboveAverageScore(int max, int low, int average, int grades[]);
+    void aboveAverageScore(int max, int low, int average, int grades[]);
+}
+
+int main();

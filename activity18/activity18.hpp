@@ -12,4 +12,9 @@
 
 #endif /* activity18_hpp */
 
-void swap(int *ptr1, int *ptr2);
+namespce Swapping{
+    void swap(int *ptr1, int *ptr2);
+}
+
+int main();
+

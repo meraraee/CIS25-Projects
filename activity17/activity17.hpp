@@ -12,4 +12,8 @@
 
 #endif /* activity17_hpp */
 
+namespace LinearSearch{
 int linearSearch();
+}
+
+int main();

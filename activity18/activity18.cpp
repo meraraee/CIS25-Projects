@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-
-void swap(int *ptr1, int *ptr2){ //parameters are our pointers
-
-    //sawping where our pointers are pointing in which index
-    int temp = *ptr1;
-    
-    *ptr1 = *ptr2;
-    
-    *ptr2 = temp;
-    
+namespace Swapping{     //namespace convention
+    void swap(int *ptr1, int *ptr2){ //parameters are our pointers
+        
+        //sawping where our pointers are pointing in which index
+        int temp = *ptr1;
+        
+        *ptr1 = *ptr2;
+        
+        *ptr2 = temp;
+        
+    }
 }
-
 
 
 int main18(){
@@ -31,7 +31,7 @@ int main18(){
     cout << endl;
     
     
-    swap(&arr[element0], &arr[element1]); //our argument are elements then are turned to pointers
+    Swapping:: swap(&arr[element0], &arr[element1]); //our argument are elements then are turned to pointers
     
     
     //outputting the swapped array

@@ -11,3 +11,12 @@
 #include <stdio.h>
 
 #endif /* activity21_hpp */
+
+namespace ArrayOperations{
+
+void fillArray(std::unique_ptr<int[]>& arr, int size);
+int sumArray(const std::unique_ptr<int[]>& arr, int size);
+
+}
+
+int main();
