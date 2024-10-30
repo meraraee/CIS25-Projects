@@ -10,4 +10,9 @@
 
 #include <stdio.h>
 
+namespace StructurePoint{
+struct Point{
+};
+}
+
 #endif /* activity26_hpp */
