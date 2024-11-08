@@ -1,8 +1,9 @@
+#include "activity19.hpp"
 #include <iostream>
 using namespace std;
 
 
-namespace SwappingFunction{
+namespace SwappingFunctions{
     void swappy(int *a, int *b){ //our parameterss are pointer to an integer
         
         int temp = *a; //temporarily storing the value pointed to a
@@ -11,18 +12,4 @@ namespace SwappingFunction{
         
     }
 
-}
-int main19(){
-    
-    int x = 2;
-    int y = 7;
-    
-    
-    cout << "Before swap " << endl << "x = " << x << endl << "y = " << y << endl;
-    
-    SwappingFunction:: swappy(&x, &y); //passing address of x and y
-    
-    cout << "After swap" << endl << "x = " << x << endl << "y = " << y << endl;
-
-    return 0;
 }

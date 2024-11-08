@@ -10,11 +10,12 @@
 
 #include <stdio.h>
 
-#endif /* activity20_hpp */
-
 namespace SumCalculator{
-
-int total(int arr1[], int sizee);
+    int total(int arr1[], int sizee);
 }
 
-int main();
+#endif /* activity20_hpp */
+
+
+
+

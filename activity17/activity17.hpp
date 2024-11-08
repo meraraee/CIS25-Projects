@@ -10,10 +10,8 @@
 
 #include <stdio.h>
 
-#endif /* activity17_hpp */
-
 namespace LinearSearch{
-int linearSearch();
+    int linearSearch();
 }
 
-int main();
+#endif /* activity17_hpp */

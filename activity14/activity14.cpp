@@ -1,3 +1,6 @@
+
+#include "activity14.hpp"
+
 #include <iostream>
 #include <ctime> //library in order to use time(0)
 #include <cstdlib> //library in order to use srand()

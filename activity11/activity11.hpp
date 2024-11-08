@@ -10,5 +10,3 @@
 
 
 #endif /* activity11_h */
-
-int main();

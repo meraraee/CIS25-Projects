@@ -8,16 +8,15 @@
 #ifndef activity24_hpp
 #define activity24_hpp
 
+#include <string>
+
 #include <stdio.h>
+
+using namespace std;
+
+namespace Structure{
+
+}
 
 #endif /* activity24_hpp */
 
-<<<<<<< HEAD
-namespace Structure{
-struct Customers;
-};
-
-int main();
-=======
-struct Customers;
->>>>>>> 9b99e59af151963b823c9fcac66519091d69c06e

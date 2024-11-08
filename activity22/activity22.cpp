@@ -1,3 +1,5 @@
+#include "activity22.hpp"
+
 #include <iostream>
 
 using namespace std;
@@ -5,7 +7,7 @@ using namespace std;
 int main22(){
     
     
-    //"subset" refers to a portion or selection of a larger set or collection
+    //"subset" or substr -  refers to a portion or selection of a larger set or collection
     
     string fullName = "Merary Murillo";
     

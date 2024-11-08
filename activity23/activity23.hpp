@@ -7,12 +7,15 @@
 
 #ifndef activity23_hpp
 #define activity23_hpp
+#include <string>
 
 #include <stdio.h>
 
+namespace Validation{
+    bool validate(const std :: string &customerNumber);
+}
+
 #endif /* activity23_hpp */
 
-bool validate(const string &customerNumber);
 
-int main();
 

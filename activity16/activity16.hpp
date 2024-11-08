@@ -10,8 +10,6 @@
 
 #include <stdio.h>
 
-#endif /* activity16_hpp */
-
 namespace AnalyzingGrades{
     int highestScore(int grade[], int size);
 
@@ -19,7 +17,8 @@ namespace AnalyzingGrades{
 
     double averageScore(int grades[], int size);
 
-    void aboveAverageScore(int max, int low, int average, int grades[]);
+    void aboveAverageScore(int max, int low, int average, int grades[], int size);
 }
 
-int main();
+#endif /* activity16_hpp */
+

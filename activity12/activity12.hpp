@@ -12,4 +12,4 @@
 
 #endif /* activity12_hpp */
 
-int main();
+

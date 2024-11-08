@@ -7,7 +7,7 @@ namespace ArrayOperations{
     void fillArray(std::unique_ptr<int[]>& arr, int size) {
         
         for (int i = 0; i < size; ++i) {
-            std::cout << "Enter a number " << (i + 1) << ": ";
+            std::cout << "Enter a number for element " << (i + 1) << ": ";
             std::cin >> arr[i];
         }
     }
@@ -24,20 +24,3 @@ namespace ArrayOperations{
     }
 }
 
-int main21() {
-    int size; //initializing variable to hold size of array
-    std::cout << "Enter the size of the array: ";
-    std::cin >> size;
-
-    // Creating a smart pointer for a dynamic array
-    std::unique_ptr<int[]> arr(new int[size]);
-
-    // Filling the array with numbers
-    ArrayOperations::fillArray(arr, size);
-
-    // Calculating and printing the sum of the array
-    int sum = ArrayOperations::sumArray(arr, size);
-    std::cout << "The sum of the array elements is: " << sum << std::endl;
-
-    return 0;
-}

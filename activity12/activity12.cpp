@@ -1,3 +1,4 @@
+#include "activity12.hpp"
 #include <iostream>
 using namespace std;
 
@@ -6,9 +7,14 @@ int main12(){
     //this program outputs the factorial of a number
     
     int num;
-    int factorial = 1;
-    cout << "type in a positive number: " << endl;
+    long int factorial = 1;
+    
+    cout << "type in a positive number: ";
     cin >> num;
+    
+    if(num < 0){
+        cout << "Error. Must be a positive number." << endl;
+    }
     
     for(int i = 1; i <= num; i++){
     
@@ -17,7 +23,7 @@ int main12(){
     }
     
     
-    cout << "Factorial of your number: " << factorial << endl;
+    cout << "Factorial of " << num << " is : " << factorial << endl;
     
     
     

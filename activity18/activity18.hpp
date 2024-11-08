@@ -10,11 +10,11 @@
 
 #include <stdio.h>
 
-#endif /* activity18_hpp */
 
-namespce Swapping{
+namespace Swapping{
     void swap(int *ptr1, int *ptr2);
 }
 
-int main();
+#endif /* activity18_hpp */
+
 
