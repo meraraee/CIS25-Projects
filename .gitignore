@@ -10,5 +10,8 @@ Classwork/
 
 # Ignore temporary files
 *.tmp
+<<<<<<< HEAD
 .DS_Store
 
+=======
+>>>>>>> b08ac1a841610966e7717a0f6a7f2fc097c763e2
