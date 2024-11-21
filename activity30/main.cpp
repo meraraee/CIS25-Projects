@@ -10,7 +10,6 @@
 
 int main(){
     
-    
     //TextBox object
     Textbox :: TextBox textbox1;
 
