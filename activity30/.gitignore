@@ -1,0 +1,13 @@
+# Ignore the Classwork folder
+Classwork/
+
+# Ignore compiled files
+*.o
+*.out
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+

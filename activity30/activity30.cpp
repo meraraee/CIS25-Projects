@@ -5,4 +5,4 @@
 //  Created by Merary Murillo on 11/20/24.
 //
 
-#include "activity30.hpp"
+#include <stdio.h>
