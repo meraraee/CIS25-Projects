@@ -15,7 +15,7 @@ using namespace std;
 
 
 
-int main() {
+int mainProj2() {
     
     
     // Welcome message for the user
